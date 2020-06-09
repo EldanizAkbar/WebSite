@@ -1,0 +1,43 @@
+.loader_bg {
+    position: fixed;
+    z-index: 999999;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+}
+.loader {
+    width: 8%;
+    height: 150px;
+    margin-top: 270px;
+}
+.tel {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+.mail {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+.hea{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.099);
+}
+.background{
+    height: 500px;
+    background-color:  rgba(3, 116, 191, 0.719);
+
+  
+}
+.text_container{
+    height: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    padding: 70px 50px 150px 50px ;
+    background-color: white;
+}
+.term{
+   margin-top: -350px;
+  
+
+}
+p{
+    font-size: 14px;
+}

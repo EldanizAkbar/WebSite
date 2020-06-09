@@ -1,0 +1,379 @@
+
+.loader_bg {
+    position: fixed;
+    z-index: 999999;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.loader {
+    text-align: center;
+    width: 8%;
+    height: 150px;
+    margin-top: 270px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.tel {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mail {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hea {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.099);
+}
+
+.nav-link {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu {
+    background-color: #F8F8F8;
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.img_container {
+    background-image: url(../images/last2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+}
+
+.color {
+    position: absolute;
+    top: -750px;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 750px;
+}
+
+.carousel-inner {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main_text {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.subtitle_text {
+    font-size: 40px;
+}
+
+.subtitle {
+    font-size: 40px;
+}
+
+.img_container1 {
+    height: 690px;
+}
+
+.projects_title {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.robot_title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding-top: 5%;
+}
+
+.logo_title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding-top: 1.5%;
+}
+
+.robot_article {
+    line-height: 1.8;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+
+.project_container {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    -webkit-transition: box-shadow 0.3s ease-in-out;
+    -moz-transition: box-shadow 0.3s ease-in-out;
+    -ms-transition: box-shadow 0.3s ease-in-out;
+    -o-transition: box-shadow 0.3s ease-in-out;
+}
+
+.project_container:hover {
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02), 0 6.7px 5.3px rgba(0, 0, 0, 0.028), 0 12.5px 10px rgba(0, 0, 0, 0.035), 0 22.3px 15px rgba(0, 0, 0, 0.042), 0 41.8px 33.4px rgba(0, 0, 0, 0.05), 0 100px 80px rgba(0, 0, 0, 0.07);
+    cursor: pointer;
+}
+
+.robot_photo {
+    padding-top: 1%;
+    width: 68%;
+}
+
+.human_photo {
+    width: 90%;
+    padding-top: 15%;
+}
+
+.logo_photo {
+    width: 90%;
+    padding-top: 12%;
+}
+
+.read {
+    margin-top: 8%;
+}
+
+.about_us {
+    line-height: 2;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.about_title {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.apply_title {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact {
+    padding: 4%;
+}
+
+.ap {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact-info img {
+    margin-bottom: 15%;
+}
+
+.contact-info h2 {
+    margin-bottom: 10%;
+}
+
+.col-md-9 {
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.contact-form label {
+    font-weight: 600;
+}
+
+.contact-form button {
+    font-weight: 600;
+}
+
+.contact-form button:focus {
+    box-shadow: none;
+}
+
+#fname {
+    padding: 4.5%;
+    outline: none;
+    border: none;
+    background-color: #F8F8F8;
+}
+
+#lname {
+    padding: 4.5%;
+    outline: none;
+    border: none;
+    background-color: #F8F8F8;
+}
+
+#email {
+    padding: 4.5%;
+    outline: none;
+    border: none;
+    background-color: #F8F8F8;
+}
+
+#comment {
+    padding: 3%;
+    outline: none;
+    border: none;
+    background-color: #F8F8F8;
+}
+
+.form-group.success input {
+    border: 1px solid green;
+    box-shadow: 0 0 5px green;
+}
+
+.form-group.error input {
+    border: 1px solid #e74c3c;
+    box-shadow: 0 0 5px #e74c3c;
+}
+
+.form-group i.fa-check-circle {
+    visibility: hidden;
+    position: relative;
+    left: 800px;
+    top: -50px;
+}
+
+.form-group i.fa-exclamation-circle {
+    visibility: hidden;
+    position: relative;
+    left: 782px;
+    top: -50px;
+}
+
+.form-group.success i.fa-check-circle {
+    color: #2ecc71;
+    visibility: visible;
+}
+
+.form-group.error i.fa-exclamation-circle {
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.form-group small {
+    color: #e74c3c;
+    position: absolute;
+    visibility: hidden;
+}
+
+.form-group.error small {
+    visibility: visible;
+}
+
+.footer1 {
+    padding-bottom: 60px;
+    padding-top: 120px;
+    background-color: #F8F8F8;
+}
+
+.links {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tel {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mail {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fut {
+    background-color: #F8F8F8;
+}
+
+.copyright-text {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.licency_container {
+    background-color: #F8F8F8;
+}
+
+.facebook {
+    color: #3b5998;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 50%;
+    transition: background 0.3s ease-in-out;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    -ms-transition: background 0.3s ease-in-out;
+    -o-transition: background 0.3s ease-in-out;
+}
+
+.facebook:hover {
+    background: #3b579d;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.instagram {
+    color: #dc4e41;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 50%;
+    transition: background 0.45s ease-in-out;
+    margin-left: 25px;
+}
+
+.instagram:hover {
+    background: #dc4e41;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.linkedin {
+    color: #0077b5;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 50%;
+    transition: background 0.45s ease-in-out;
+    margin-left: 25px;
+}
+
+.linkedin:hover {
+    background: #0077b5;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.twitter {
+    color: #55acee;
+    border: none;
+    padding: 11px 12px;
+    border-radius: 50%;
+    transition: background 0.45s ease-in-out;
+    margin-left: 25px;
+}
+
+.twitter:hover {
+    background: #55acee;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.last {
+    background-color: #F8F8F8;
+}
+
+.display-4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.lead {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.link {
+    font-weight: bolder;
+}
+
+a, a:hover, a:focus {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    text-decoration: none;
+}
+
+.sekil {
+    width: 20%;
+    float: left;
+}
