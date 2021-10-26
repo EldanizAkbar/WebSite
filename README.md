@@ -1,2 +1,2 @@
 # WebSite
-It is just WebSite template. You can use it for your company WebSite
+It is just responsive WebSite template. You can use it for your company WebSite
